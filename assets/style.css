@@ -1,0 +1,320 @@
+/**/
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: auto;
+    font-family: 'cookie', cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+
+/*gambar header*/
+.banner{
+    width:100%;
+    height: 650px;
+    background-image: url('../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+
+
+/*text di header */
+.text{
+    width:100%;
+    position: relative;
+    top:250px;
+    left: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.text h1{
+    color:#f15;
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+    text-align: center;
+}
+.text .date{
+    color:#fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+    
+}
+
+.text .date:hover{
+    background-color: #fff;
+    color:#f15;
+}
+
+
+.section{
+    width:100%;
+    height: auto;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.us{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+    font-family: sans-serif;
+}
+.us img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 10px solid #f15;
+    border-bottom: 10px solid #f15;
+    margin-bottom: 20px;
+}
+.section h2{
+    width:100%;
+    text-align: center;
+    color:#f15;
+    font-size: 60px;
+}
+.us1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.us1 span{
+    color:#f15;
+    font-size: 40px;
+    padding: 8px;
+    
+}
+
+
+
+.venue{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.venue img{
+    width:50%;
+    height: 300px;
+    display: inline;
+   
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.venue h1 {
+    width:100%;
+    text-align: center;
+    color:#f15;
+    font-size: 60px;
+}
+
+.venue h2 {
+    padding: 20px;
+    color:#333;
+    font-size: 50px;
+}
+
+.venue p{
+    font-size: 35px;
+    line-height: 30px;
+    color:#333;
+    text-align: center;
+}
+
+.party{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+    text-align: center;
+}
+.party img{
+    width:50%;
+    height: 300px;
+    display: inline;
+    border:2px solid #f15;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.party p{
+    font-size: 35px;
+    line-height: 30px;
+    color:#333;
+}
+
+.btn {
+    background-color: #f15; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a {
+    color: white;
+}
+
+footer{
+    width:100%;
+    height: auto;
+    color:#ddd;
+    font-size: 30px;
+    font-family: monospace;
+    background-color: #f15;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer i{
+    color:skyblue;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.audio {
+    opacity: 50%;
+    height: 0px;
+    position: sticky;
+    top: 0px;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+}
+
+
+@media screen and (max-width: 1000px){
+	
+	.container {
+		width: 100%;
+		padding: 0;
+    }
+    
+    .us{
+        text-align: center;
+    }
+
+    /* text di header */
+    .text{
+        width:100%;
+        position: relative;
+        top:250px;
+        left: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .text h1{
+        color:#f15;
+        text-shadow: 0 3px 10px rgba(0,0,0,.5);
+        text-align: center;
+    }
+    .text .date{
+        color:#fff;
+        background-color: #f15;
+        padding: 5px;
+        border-radius: 40px 0 40px 0;
+        transition-duration: .5s;
+        text-align: center;
+    }
+
+
+    .venue h2 {
+        padding: 10px;
+        color:#333;
+        font-size: 40px;
+    }
+    
+    .venue img{
+        width: 500px;
+        max-height: 150px;
+        object-fit: cover;
+        object-position: center;
+        padding: 20px;
+    }
+
+
+    /*calon pengantin */
+    .us1 span{
+        color:#f15;
+        font-size: 40px;
+        padding: 10px;
+    }
+   
+
+
+    .venue p{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .party img{
+        width: 300px;
+        max-height: 200px;
+        object-fit: cover;
+        object-position: center;
+        border:2px solid #f15;  
+    }
+
+    footer{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    footer i {
+        font-size: 15px;
+        
+    }
+
+}
