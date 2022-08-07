@@ -150,7 +150,7 @@
     font-size: 50px;
 }
 
-.venue p{
+.venue p {
     font-size: 35px;
     line-height: 30px;
     color:#333;
@@ -179,11 +179,8 @@
     border-radius: 8px;
     margin-bottom: 10px;
 }
-.party p{
-    font-size: 35px;
-    line-height: 30px;
-    color:#333;
-}
+
+
 
 .btn {
     background-color: #f15; 
@@ -269,16 +266,29 @@ footer i{
         text-align: center;
     }
 
+    .venue h1 {
+        width:100%;
+        text-align: center;
+        color:#f15;
+        font-size: 40px;
+    }
 
     .venue h2 {
         padding: 10px;
         color:#333;
-        font-size: 40px;
+        font-size: 25px;
     }
     
+    .venue p{
+        text-align: center;
+        padding: 10px;
+        font-size: 25px;
+    }
+
+
     .venue img{
-        width: 500px;
-        max-height: 150px;
+        width: 250px;
+        max-height: 100px;
         object-fit: cover;
         object-position: center;
         padding: 20px;
@@ -288,23 +298,21 @@ footer i{
     /*calon pengantin */
     .us1 span{
         color:#f15;
-        font-size: 40px;
+        font-size: 25px;
         padding: 10px;
     }
    
 
-
-    .venue p{
-        text-align: center;
-        padding: 10px;
-    }
-
     .party img{
-        width: 300px;
+        width: 220px;
         max-height: 200px;
         object-fit: cover;
         object-position: center;
         border:2px solid #f15;  
+    }
+
+    .party h2{
+        font-size: 40px;
     }
 
     footer{
